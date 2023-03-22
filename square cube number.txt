@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main() 
+{
+    float x;
+    printf("enter the number :");
+    scanf("%f",&x);
+    {
+        printf("square number : %.4f\n",(x*x));
+        printf("cube number : %.4f",(x*x*x));
+    }
+   
+
+    return 0;
+}

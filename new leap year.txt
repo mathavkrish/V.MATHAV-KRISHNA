@@ -1,0 +1,46 @@
+\
+#include <stdio.h>
+
+int main() 
+{
+ int year,date,month;
+ 
+ printf("date/month/year :");
+ scanf("%d / %d / %d",&date,&month,&year);
+ if (date>0 & date<32)
+ {
+     if(month>0 & month<13)
+     {
+         
+         
+         if (year%400==0)
+         {
+             printf("leap year");
+         }
+         else if (year%100==0)
+         {
+             printf("leap year");
+         }
+         else if (year%4==0)
+         {
+             printf("leap year");
+         }
+         else 
+         {
+             printf("not a leap year");
+         }
+     }
+     else 
+     {
+         printf("Enter the correct month");
+     }
+ }
+ else 
+ {
+    printf("Enter the correct date"); 
+ }
+  
+
+    
+    return 0;
+}
